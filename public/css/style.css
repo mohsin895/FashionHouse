@@ -1,0 +1,61 @@
+html{
+  height: 100%;
+}
+body{
+  position: relative;
+  min-height: 100%;
+  background-color: #d5d4d2;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+
+}
+.feature-img{
+  max-height: 200px;
+}
+.footer-bottom{
+  padding: 20px;
+  margin-top: 20px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0px;
+
+}
+.product{
+background: blue;
+}
+.child-rows{
+  padding-left: 20px;
+  border-left: 1px solid #dfdfdf;
+  background: #FFF;
+}
+.child-rows a.list-group-item{
+  border-left: 0px!important;
+}
+.carousel-control-next-icon{
+  background: red;
+}
+.carousel-control-prev-icon{
+  background: red;
+}
+
+.mr-auto, .mx-auto {
+    margin-top: 12px;
+    margin-bottom: -10px;
+}
+.pointer{
+  cursor: pointer;
+}
+.container{
+    line-height: 15px;
+    padding-top: 10px;
+    padding-bottom: -15px;
+
+
+}
+.navbar{
+  background: #fff;
+}

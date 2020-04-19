@@ -1,0 +1,39 @@
+
+@extends('admin.layouts.master')
+@section('content')
+
+<div class="main-panel">
+  <div class="content-wrapper">
+    <!-- Page Title Header Starts-->
+
+    <!-- Page Title Header Ends-->
+    <div class="card">
+    <div class=" card-header">
+      <h1> Add Division</h1>
+    </div>
+    <div class="card-body">
+      <form action="{{route('admin.division.store')}}" method="post" enctype="multipart/form-data">
+            @csrf
+              @include('admin.partials.messages')
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" name="name" id="name" placeholder="Enter Division Name" >
+
+        </div>
+        <div class="form-group">
+          <label for="priority">Priority</label>
+        <input type="text" class="form-control" name="priority" id="priority" placeholder="Enter Division Priority" >
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Add Division</button>
+      </form>
+    </div>
+
+
+  </div>
+  </div>
+
+</div>
+<!-- main-panel ends -->
+@endsection
